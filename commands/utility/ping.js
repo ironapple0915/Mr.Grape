@@ -15,7 +15,7 @@ module.exports = {
 					)
 			                .setThumbnail('https://i.imgur.com/JXfpgdXh.jpg')
 					.setTimestamp()
-					.setFooter('Grape Databases');
+					.setFooter('Night');
 				m.delete();
 				m.channel.send(pingsoloEmbed);
 		})
