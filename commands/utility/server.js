@@ -15,7 +15,7 @@ module.exports = {
 			)
 			.setThumbnail('https://i.imgur.com/JXfpgdXh.jpg')
 			.setTimestamp()
-			.setFooter('Grape Databases');
+			.setFooter('night');
 
 		message.channel.send(serversoloEmbed);
 	}
