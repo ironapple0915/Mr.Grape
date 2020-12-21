@@ -13,7 +13,7 @@ module.exports = {
 				.setTitle('Song')
 				.addField(`Resumin Tunes!`, '_')
 				.setTimestamp()
-				.setFooter('DJ Grape');
+				.setFooter('Night');
 			return message.channel.send(p);
 		}
 		else if (serverQueue.playing) return message.channel.send("Can't resume if its already playing smh")
