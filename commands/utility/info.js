@@ -39,7 +39,7 @@ module.exports = {
             }, )
             .setThumbnail('https://i.imgur.com/JXfpgdXh.jpg')
             .setTimestamp()
-            .setFooter('Grape Enterprises');
+            .setFooter('Night');
 
         message.channel.send(info);
 
