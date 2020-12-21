@@ -17,7 +17,7 @@ module.exports = {
                 { name: 'Prefix', value: `${args[0]}` }
             )
             .setTimestamp()
-            .setFooter('Grape Databases');
+            .setFooter('night');
         message.channel.send(prefixSetEmbed)
     }
 }; 
