@@ -25,13 +25,13 @@ module.exports = {
                 }
             }
         } else if (!unbanUser) {
-            message.channel.send('who are we unbanning? (you gotta give me their id bro)');
+            message.channel.send('Air was unbanned. (you gotta give me their id)');
         } else if (!boolean) {
-            message.reply("bruh you dont even have permission to unban people, stop trying smh ");
+            message.reply("The microwave said no.");
         } else if (!myBoolean) {
-            message.channel.send("I don't have perms")
+            message.channel.send("Perms=no")
         } else {
-            message.channel.send("Cannot unban that user");
+            message.channel.send("I tried but Thier too powerful.");
         }
 
     }
