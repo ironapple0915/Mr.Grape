@@ -25,11 +25,11 @@ module.exports = {
                 }
             }
         } else if (!target) {
-            message.channel.send('who you gonna hammer? (mention)');
+            message.channel.send('air has been banned');
         } else if (!boolean) {
             message.reply("bruh you dont even have permission to kick people, stop trying smh ");
         } else if (!myBoolean) {
-            message.channel.send("I don't have perms to ban")
+            message.channel.send("pls help perms")
         } else {
             message.channel.send("Cannot kick " + target.displayName + " maybe use a valid mention?");
         }
