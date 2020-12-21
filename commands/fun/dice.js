@@ -13,7 +13,7 @@ module.exports = {
                 value: roll
             })
             .setTimestamp()
-            .setFooter('Grape Dice Club');
+            .setFooter('Night Dice Club');
         message.channel.send(dice);
     }
 };
