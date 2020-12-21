@@ -25,11 +25,11 @@ module.exports = {
                 }
             }
         } else if (!target) {
-            message.channel.send('who you gonna give the boot to? (mention)');
+            message.channel.send('air has been kicked');
         } else if (!boolean) {
-            message.reply("bruh you dont even have permission to kick people, stop trying smh ");
+            message.reply("the oven said no");
         } else if (!myBoolean) {
-            message.channel.send("I don't have perms to give ppl the boot")
+            message.channel.send("I tried but no")
         } else {
             message.channel.send("Cannot kick " + target.displayName + " maybe use a valid mention?");
         }
