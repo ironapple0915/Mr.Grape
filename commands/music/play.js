@@ -52,7 +52,7 @@ module.exports = {
 				.setThumbnail(song.thumbnail)
 				.addField(e, '_')
 				.setTimestamp()
-				.setFooter('DJ Grape');
+				.setFooter('Night');
 			return announceEmbed;
 		}
 
