@@ -9,7 +9,7 @@ const users = new Keyv(process.env.DATABASE_URL, { namespace: "users" });
 const items = new Keyv(process.env.DATABASE_URL, { namespace: "items" });
 const guilds = new Keyv(process.env.DATABASE_URL, { namespace: "guilds" });
 const cooldowns = new Discord.Collection();
-const twitchURL = "https://twitch.tv/MrGrapeTwitch";
+
 
 client.commands = new Discord.Collection();
 client.queue = new Discord.Collection();
@@ -36,8 +36,8 @@ client.once("ready", () => {
   client.user.setPresence({
     activity: {
       name: `${config.prefix}help in ${client.guilds.cache.size} servers`,
-      type: "STREAMING",
-      url: twitchURL,
+      type: "WATCHING",
+      
     },
   });
 });
@@ -51,8 +51,8 @@ client.on("guildCreate", (guild) => {
   client.user.setPresence({
     activity: {
       name: `${config.prefix}help in ${client.guilds.cache.size} servers`,
-      type: "STREAMING",
-      url: twitchURL,
+      type: "WATCHING",
+      
     },
   });
 });
@@ -61,8 +61,8 @@ client.on("guildDelete", async (guild) => {
   client.user.setPresence({
     activity: {
       name: `${config.prefix}help in ${client.guilds.cache.size} servers`,
-      type: "STREAMING",
-      url: "https://www.twitch.tv/MrGrapeTwitch",
+      type: "WATCHING",
+      
     },
   });
   await guilds.delete(guild.id);
