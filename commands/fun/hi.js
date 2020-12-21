@@ -1,7 +1,7 @@
 module.exports = {
     name: "hi",
     aliases: ['hello'],
-    description: "have good manners and greet mr grape",
+    description: "have good manners and greet Night",
     cooldown: 2,
     cd: "who says hello that much dang",
     fan: false,
