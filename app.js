@@ -137,7 +137,7 @@ client.on("message", async (message) => {
         .setTitle("ayo chill man")
         .setDescription(`${command.cd}\nWait for ${d.formatCooldown(timeLeft)}`)
         .setTimestamp()
-        .setFooter("Grape Cooldowns");
+        .setFooter("Night Cooldowns");
       return message.channel.send(cool);
     }
   }
