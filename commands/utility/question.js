@@ -23,7 +23,7 @@ module.exports = {
             .setDescription('Powered by Wolfram-Alpha')
             .addField(finalAnswer.charAt(0).toUpperCase() + finalAnswer.slice(1), '_')
             .setTimestamp()
-            .setFooter('DJ Grape');
+            .setFooter('Night');
         message.channel.send(answerEmbed)
     }
 };
