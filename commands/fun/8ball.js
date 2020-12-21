@@ -25,7 +25,7 @@ module.exports = {
                 value: val
             })
             .setTimestamp()
-            .setFooter('Grape Fortune-Telling');
+            .setFooter('Night Fortune-Telling');
         message.channel.send(ballEmbed);
     }
 };
