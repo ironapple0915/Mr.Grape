@@ -29,7 +29,7 @@ module.exports = {
 
             )
             .setTimestamp()
-            .setFooter('DJ Grape');
+            .setFooter('Night');
         message.channel.send(np);
     }
 };
