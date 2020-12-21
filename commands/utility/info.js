@@ -32,9 +32,9 @@ module.exports = {
                 value: `${d.config.todo.join("\n")}`
             }, {
                 name: 'Credits:',
-                value: 'Kinglalu and DAONE | Goobermeister: graphics/emojis | Originally by Horsey4 and Airplane Bong.'
+                value: 'Kinglalu and DAONE's github Edited by IronApple | Goobermeister: graphics/emojis | Originally by Horsey4 and Airplane Bong.'
             }, {
-                name: '# of Servers Mr.Grape is in:',
+                name: '# of Servers Night is in:',
                 value: `${message.client.guilds.cache.size}`
             }, )
             .setThumbnail('https://i.imgur.com/JXfpgdXh.jpg')
