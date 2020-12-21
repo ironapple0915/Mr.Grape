@@ -33,7 +33,7 @@ module.exports = {
                         value: `For help on a specific command or category, do ${d.prefix}help [category/command]`
                     })
                     .setTimestamp()
-                    .setFooter('Grape Databases');
+                    .setFooter('Night');
                 message.channel.send(helpEmbed);
                 return;
             }
@@ -68,7 +68,7 @@ module.exports = {
                         value: `For more help on a specific command, do ${d.prefix}help [command]`
                     })
                     .setTimestamp()
-                    .setFooter('Grape Databases');
+                    .setFooter('Night');
                 message.channel.send(helpCommandEmbed);
             } else if (command) {
                 if (!command.aliases) {
@@ -87,7 +87,7 @@ module.exports = {
                         value: alias
                     })
                     .setTimestamp()
-                    .setFooter('Grape Databases');
+                    .setFooter('Night');
                 message.channel.send(helpCommandEmbed);
             } else {
                 message.channel.send('That category or command aint here')
