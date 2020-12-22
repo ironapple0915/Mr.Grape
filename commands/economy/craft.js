@@ -46,7 +46,7 @@ module.exports = {
                 .setTitle(message.author.username + `'s craftin`)
                 .addField('Failed', 'That item doesn\'t exist!')
                 .setTimestamp()
-                .setFooter('The Grape Blacksmith');
+                .setFooter('The Night Blacksmith');
             return message.channel.send(e);
         }
     }
