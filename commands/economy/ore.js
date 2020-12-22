@@ -34,7 +34,7 @@ module.exports = {
                 value: '_'
             })
             .setTimestamp()
-            .setFooter('Grape Mining Corp');
+            .setFooter('Night Mining Corp');
 
         message.channel.send(ore);
 
