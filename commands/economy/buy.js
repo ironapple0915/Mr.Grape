@@ -57,7 +57,7 @@ module.exports = {
             .setTitle(message.author.username + "'s purchase")
             .addField('Receipt', receipt)
             .setTimestamp()
-            .setFooter('Grape Marketplaces');
+            .setFooter('Night Marketplaces');
         message.channel.send(buy);
     }
 };
