@@ -19,7 +19,7 @@ module.exports = {
             .addField('You dug up ' + earn + ' :star:s!', '_')
             .setThumbnail('https://i.imgur.com/JXfpgdXh.jpg')
             .setTimestamp()
-            .setFooter('Grape Mining Guild');
+            .setFooter('Night Mining Guild');
 
         if (inv) {
             if (!inv.ore) { inv.ore = {}; }
