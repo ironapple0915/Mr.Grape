@@ -25,7 +25,7 @@ module.exports = {
             .setTitle(message.author.username + `'s task`)
             .addField('Unscramble the fruit!', `${scrambledWord}`)
             .setTimestamp()
-            .setFooter('Grape Enterprises');
+            .setFooter('Night Enterprises');
         message.channel.send(scrambleEmbed);
         let filter = m => m.author.id === message.author.id
         message.channel.awaitMessages(filter, {
@@ -47,7 +47,7 @@ module.exports = {
                         .setTitle(message.author.username + `'s task`)
                         .addField('Unscramble Results', `Yay! You guessed the word correctly! You get ${e} :star:s`)
                         .setTimestamp()
-                        .setFooter('Grape Enterprises');
+                        .setFooter('Night Enterprises');
                     message.channel.send(yay)
                 } else {
                     const oof = new d.Discord.MessageEmbed()
@@ -55,7 +55,7 @@ module.exports = {
                         .setTitle(message.author.username + `'s task`)
                         .addField('Unscramble Results', `bruh ur bad, the word was ${word} duh`)
                         .setTimestamp()
-                        .setFooter('Grape Enterprises');
+                        .setFooter('Night Enterprises');
                     message.channel.send(oof)
                 }
             })
@@ -65,7 +65,7 @@ module.exports = {
                     .setTitle(message.author.username + `'s task`)
                     .addField('Unscramble Results', `cmon slowpoke, its not that hard, it was ${word}`)
                     .setTimestamp()
-                    .setFooter('Grape Enterprises');
+                    .setFooter('Night Enterprises');
                 message.channel.send(oof)
             });
     }
