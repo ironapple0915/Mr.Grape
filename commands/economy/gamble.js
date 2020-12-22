@@ -16,7 +16,7 @@ module.exports = {
                 .setTitle('Busted!')
                 .addField(`You were lookin kinda sus, so you lost your dice, and ${((2 * bet) + owe)} :star:s!`, '_')
                 .setTimestamp()
-                .setFooter('Grape Gambling Club.');
+                .setFooter('Night Gambling Club.');
             d.addMoni(message.author.id, -((2 * bet) + owe))
             message.channel.send(busted);
         }
@@ -26,7 +26,7 @@ module.exports = {
                 .setTitle(message.author.username + `'s gambling table` + '\n___')
                 .addField('Ok, if you roll an even number you win, if you roll an odd number, you lose.', '_')
                 .setTimestamp()
-                .setFooter('Grape Gambling Club.');
+                .setFooter('Night Gambling Club.');
             message.channel.send(gambleEmbed)
                 .then((msg) => {
                     setTimeout(function () {
