@@ -11,7 +11,7 @@ module.exports = {
             .addField('Daily Reward','here is ' + ` ${random} ` + ' :star:s')
             .setThumbnail('https://i.imgur.com/JXfpgdXh.jpg')
             .setTimestamp()
-            .setFooter('Grape Bank Inc.');
+            .setFooter('Grape Night Inc.');
         message.channel.send(dailystarEmbed);
         d.addMoni(message.author.id, random);
     }
