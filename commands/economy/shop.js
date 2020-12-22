@@ -36,7 +36,7 @@ module.exports = {
             },)
             .setThumbnail('https://i.imgur.com/JXfpgdXh.jpg')
             .setTimestamp()
-            .setFooter('Grape Marketplaces');
+            .setFooter('Night Marketplaces');
 
         message.channel.send(shop);
 
