@@ -1,4 +1,4 @@
- /* module.exports = {
+  module.exports = {
     name: 'devgive',
     aliases: ['devdonate'],
     description: 'for developers of mr grape to reset peps bals and stuff',
@@ -6,7 +6,7 @@
     cd: "Love the generosity, but maybe chill a bit?",
     fan: true,
     async execute(message, args, d) {
-    if (parseInt(message.author.id) === 329331044828446722 || parseInt(message.author.id) === 705433506230304849) {
+    if (parseInt(message.author.id) === 482234880009175060 || parseInt(message.author.id) === 739126780027207780) {
         const regex = /<@!?\d+>/g;        
         let argument = args.join(' ').replace(/,/g, '');
         let donation = parseInt(argument.replace(argument.match(regex), ''));
@@ -31,7 +31,7 @@
                 .addField('Donation', 'you gave ' + `${target.displayName} ` + donation + ' :star:s')
                 .setThumbnail('https://i.imgur.com/JXfpgdXh.jpg')
                 .setTimestamp()
-                .setFooter('Grape Charity Org.');
+                .setFooter('Night Charity Org.');
 
             message.channel.send(give);
             }
