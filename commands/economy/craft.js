@@ -24,7 +24,7 @@ module.exports = {
                         .setTitle(message.author.username + `'s craftin`)
                         .addField('Failed', `You don\'t have all the things you need to make ${craft}(s)!`)
                         .setTimestamp()
-                        .setFooter('The Grape Blacksmith');
+                        .setFooter('The Night Blacksmith');
                     return message.channel.send(e);
                 }
                 inv.ore[key] -= recipe[craft][key] * numItems;
