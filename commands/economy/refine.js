@@ -38,7 +38,7 @@ module.exports = {
                 .setTitle(message.author.username + '\'s refinement')
                 .addField('Refined', refinementRecipt)
                 .setTimestamp()
-                .setFooter('Grape Refinery');
+                .setFooter('Night Refinery');
             return message.channel.send(refine);
         }
         else {
@@ -50,7 +50,7 @@ module.exports = {
                         .setTitle(message.author.username + '\'s refinement')
                         .addField('Cannot Refine', 'That ore doesn\'t exist bruh')
                         .setTimestamp()
-                        .setFooter('Grape Refinery');
+                        .setFooter('Night Refinery');
                     return message.channel.send(e);
                 }
                 if (!inv.ore[item]) {
@@ -59,7 +59,7 @@ module.exports = {
                         .setTitle(message.author.username + '\'s refinement')
                         .addField('Cannot Refine', 'You don\'t have that ore, git good.')
                         .setTimestamp()
-                        .setFooter('Grape Refinery');
+                        .setFooter('Night Refinery');
                     return message.channel.send(e);
                 }
                 function getCostAll() {
@@ -84,7 +84,7 @@ module.exports = {
                     .setTitle(message.author.username + '\'s refinement')
                     .addField('Refined', oreRefine)
                     .setTimestamp()
-                    .setFooter('Grape Refinery');
+                    .setFooter('night Refinery');
                 return message.channel.send(r);
             }
             else {
@@ -99,7 +99,7 @@ module.exports = {
                         .setTitle(message.author.username + '\'s refinement')
                         .addField('Cannot Refine', 'That ore doesn\'t exist bruh')
                         .setTimestamp()
-                        .setFooter('Grape Refinery');
+                        .setFooter('Night Refinery');
                     return message.channel.send(e);
                 }
                 if (!inv.ore[item]) {
@@ -108,7 +108,7 @@ module.exports = {
                         .setTitle(message.author.username + '\'s refinement')
                         .addField('Cannot Refine', 'You don\'t have that ore, git good.')
                         .setTimestamp()
-                        .setFooter('Grape Refinery');
+                        .setFooter('Night Refinery');
                     return message.channel.send(e);
                 }
                 function getCostSingle() {
@@ -133,7 +133,7 @@ module.exports = {
                     .setTitle(message.author.username + '\'s refinement')
                     .addField('Refined', oreRefiner)
                     .setTimestamp()
-                    .setFooter('Grape Refinery');
+                    .setFooter('Night Refinery');
                 return message.channel.send(r);
             }
         }
