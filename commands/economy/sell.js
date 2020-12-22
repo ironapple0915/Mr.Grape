@@ -31,7 +31,7 @@ module.exports = {
                             { name: 'Profit', value: `${profit} :star:s` }
                         )
                         .setTimestamp()
-                        .setFooter('Grape Marketplaces');
+                        .setFooter('Night Marketplaces');
                     message.channel.send(saleAllTools);
                     await d.items.set(message.author.id, inv);
                 }
@@ -69,7 +69,7 @@ module.exports = {
                         { name: 'Profit', value: `${profit} :star:s` }
                     )
                     .setTimestamp()
-                    .setFooter('Grape Marketplaces');
+                    .setFooter('Night Marketplaces');
 
                 message.channel.send(saleAll);
             }
@@ -92,7 +92,7 @@ module.exports = {
                         { name: 'Profit', value: `${profit} :star:s` }
                     )
                     .setTimestamp()
-                    .setFooter('Grape Marketplaces');
+                    .setFooter('Night Marketplaces');
 
                 message.channel.send(sale);
             }
@@ -160,7 +160,7 @@ module.exports = {
                             { name: 'Profit', value: `${profit} :star:s` }
                         )
                         .setTimestamp()
-                        .setFooter('Grape Marketplaces');
+                        .setFooter('Night Marketplaces');
                     message.channel.send(saleAllOres);
                     await d.items.set(message.author.id, inv);
                 }
@@ -198,7 +198,7 @@ module.exports = {
                         { name: 'Profit', value: `${soldItem[1]} :star:s` }
                     )
                     .setTimestamp()
-                    .setFooter('Grape Marketplaces but for ores');
+                    .setFooter('Night Marketplaces but for ores');
 
                 message.channel.send(sale);
             }
@@ -221,7 +221,7 @@ module.exports = {
                         { name: 'Profit', value: `${soldItem[1]} :star:s` }
                     )
                     .setTimestamp()
-                    .setFooter('Grape Marketplaces');
+                    .setFooter('Night Marketplaces');
 
                 message.channel.send(sale);
             }
