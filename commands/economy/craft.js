@@ -37,7 +37,7 @@ module.exports = {
                 .setTitle(message.author.username + `'s craftin`)
                 .addField('Success!', `You made ${numItems} ${craft}(s)!`)
                 .setTimestamp()
-                .setFooter('The Grape Blacksmith');
+                .setFooter('The Night Blacksmith');
             return message.channel.send(done);
         }
         else {
