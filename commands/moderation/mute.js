@@ -1,4 +1,4 @@
-module.exports = {
+/*module.exports = {
     name: 'mute',
     description: 'the shut command',
     cooldown: 1,
