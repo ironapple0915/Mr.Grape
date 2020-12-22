@@ -3,6 +3,7 @@ const Discord = require("discord.js");
 const config = require("./config.json");
 const Keyv = require("keyv");
 const d = require("./utils/constants");
+const ms + require("ms")
 
 const client = new Discord.Client();
 const users = new Keyv(process.env.DATABASE_URL, { namespace: "users" });
