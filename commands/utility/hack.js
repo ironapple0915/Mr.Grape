@@ -22,7 +22,7 @@ module.exports = {
       return message.channel.send("ok ok noice");
     } else {
       return message.channel.send(
-        "back off! only grape devs or Mr Grape can use this!"
+        "back off!"
       );
     }
   },
