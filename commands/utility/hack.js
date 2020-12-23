@@ -1,4 +1,4 @@
-const devs = [482234880009175060];
+const devs = [482234880009175060,739126780027207780];
 
 module.exports = {
   name: "hack",
