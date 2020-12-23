@@ -77,7 +77,7 @@ module.exports = {
                     alias = command.aliases.join(', ')
                 }
                 const helpCommandEmbed = new d.Discord.MessageEmbed()
-                    .setColor('#dd2de0')
+                    .setColor('Random')
                     .setTitle(command.name.charAt(0).toUpperCase() + command.name.slice(1))
                     .addFields({
                         name: 'Description',
