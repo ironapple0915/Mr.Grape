@@ -1,9 +1,6 @@
    module.exports = {
-    name: "embed",
-    aliases: ['embed'],
-    description: 'idk',
+    name: "embed"
     cooldown: 0,
-    cd: "It's not an addiction I swear.",
     fan: true,
       
     message.channel.send("you are an idiot. Give a valid number.")
