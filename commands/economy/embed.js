@@ -8,4 +8,4 @@ module.exports = {
     async execute(message, args, d) {  
     message.channel.send("you are an idiot. Give a valid number.")
             return
-            }
+            }}
