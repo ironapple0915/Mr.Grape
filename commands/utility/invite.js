@@ -8,6 +8,7 @@ module.exports = {
 		const inviteEmbed = new d.Discord.MessageEmbed()
 			.setColor('#dd2de0')
 			.setTitle('invites to discord sever and bot')
+			.setDescription('bot invite')
 			.setURL(invite)
 			 .setDescription('https://discord.gg/ZVyzbZfUqr')
 			.setTimestamp()
