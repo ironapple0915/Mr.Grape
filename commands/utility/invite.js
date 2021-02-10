@@ -5,10 +5,14 @@ module.exports = {
 	cd: "I just gave you the link!",
 	execute(message, args, d) {
 		const invite = 'https://discord.com/oauth2/authorize?client_id=747292356847468704&scope=bot&permissions=2147352575';
+		const sever ='https://discord.gg/ZVyzbZfUqr'
 		const inviteEmbed = new d.Discord.MessageEmbed()
 			.setColor('#dd2de0')
-			.setTitle('Invite')
+			.setTitle('invites to discord sever and bot')
 			.setURL(invite)
+			.seturl (sever)
+			.setTimestamp()
+            		.setFooter('Night');
 		message.channel.send(inviteEmbed);
 	}
 };
