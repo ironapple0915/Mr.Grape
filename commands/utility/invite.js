@@ -9,7 +9,7 @@ module.exports = {
 			.setColor('ramdom')
 			.setTitle('bot invite')
 			.setURL(invite)
-			 .setDescription('sever invite - https://discord.gg/ZVyzbZfUqr')
+			 .setDescription('server invite - https://discord.gg/ZVyzbZfUqr')
 			.setTimestamp()
             		.setFooter('Night');
 		message.channel.send(inviteEmbed);
