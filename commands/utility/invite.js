@@ -6,11 +6,10 @@ module.exports = {
 	execute(message, args, d) {
 		const invite = 'https://discord.com/oauth2/authorize?client_id=747292356847468704&scope=bot&permissions=2147352575';
 		const inviteEmbed = new d.Discord.MessageEmbed()
-			.setColor('#dd2de0')
-			.setTitle('invites to discord sever and bot')
-			.setDescription('bot invite')
+			.setColor('ramdom')
+			.setTitle('bot invite')
 			.setURL(invite)
-			 .setDescription('https://discord.gg/ZVyzbZfUqr')
+			 .setDescription('sever invite - https://discord.gg/ZVyzbZfUqr')
 			.setTimestamp()
             		.setFooter('Night');
 		message.channel.send(inviteEmbed);
