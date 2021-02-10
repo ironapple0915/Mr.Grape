@@ -10,7 +10,7 @@ module.exports = {
 			.setColor('#dd2de0')
 			.setTitle('invites to discord sever and bot')
 			.setURL(invite)
-			.seturl (sever)
+			.setURL (sever)
 			.setTimestamp()
             		.setFooter('Night');
 		message.channel.send(inviteEmbed);
