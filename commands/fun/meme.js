@@ -5,7 +5,7 @@ const url = 'https://www.reddit.com/r/dankmemes/hot/.json?limit=100'
 
 
 module.exports = {
-    name: 'embed',
+    name: 'meme',
     description: 'sends meme',
     execute(message, args) {
 
